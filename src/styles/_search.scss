@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	font-family: "Oxygen", sans-serif;
+}
+
+.search-form {
+	width: 50%;
+	.input-container {
+		position: relative;
+		display: flex;
+		input {
+			border: none;
+			outline: none;
+			background: linear-gradient(35deg, #494949, #313131);
+			font-size: 1.2rem;
+			color: hsla(0, 0%, 100%, 0.65);
+			padding: 0.5rem;
+			border-radius: 1rem;
+			border-top-right-radius: 0;
+			border-bottom-right-radius: 0;
+			width: 100%;
+		}
+
+		.search-icon {
+			font-size: 1.5rem;
+			padding: 1.2rem;
+			color: #f5f5dc;
+			background: linear-gradient(35deg, #494949, #313131);
+			border-top-right-radius: 1rem;
+			border-bottom-right-radius: 1rem;
+			cursor: pointer;
+		}
+	}
+}
