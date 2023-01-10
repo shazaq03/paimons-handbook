@@ -192,12 +192,12 @@ function ShowcaseContainer({ activeCharacter }) {
 							<p>
 								{activeDATA.rarity === 5 ? (
 									<img
-										src="/assets/rarity-five-star.png"
+										src="/assets/images/rarity-five-star.png"
 										alt="5"
 									/>
 								) : (
 									<img
-										src="/assets/rarity-four-star.png"
+										src="/assets/images/rarity-four-star.png"
 										alt="4"
 									/>
 								)}
