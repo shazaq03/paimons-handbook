@@ -92,14 +92,14 @@ function ListComponent({ searchTerm, activeCharacter, setactiveCharacter }) {
 								<img
 									className="rarity-image"
 									draggable="false"
-									src="src\assets\images\rarity-five-star.png"
+									src="/assets/images/rarity-five-star.png"
 									alt=""
 								/>
 							) : (
 								<img
 									className="rarity-image"
 									draggable="false"
-									src="src\assets\images\rarity-four-star.png"
+									src="/assets/images/rarity-four-star.png"
 									alt=""
 								/>
 							)}
